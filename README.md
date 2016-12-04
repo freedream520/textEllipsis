@@ -3,10 +3,15 @@
 
 该插件是基于jQuery框架，所以在使用之前，需要先导入jQuery. 
 使用方式比较简单，只需要实例化就可以
+
 例如：
+  
   $("p").textEllipsis();
+  
   默认参数:{
         "max":20 //限制的字符大小
     }
+    
 或者是用
+
   <p data-role='ellipsis' data-max='30'> data-max限制的字符大小
