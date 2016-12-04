@@ -8,14 +8,11 @@
   
   $("p").textEllipsis();
   
-  默认参数:{
+  默认参数:
   
-        "max":20 //限制的字符大小
-        
+    {
+    
+        "max":20 //限制的字符大小       
     }
     
-或者是用
-
-  <p data-role='ellipsis' data-max='30'> 
-  
-  //data-max限制的字符大小
+或者是用  data-role='ellipsis' data-max='30'到某元素上 
